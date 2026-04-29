@@ -266,6 +266,10 @@ p {
   font-size: 1.04rem;
 }
 
+.project__content .tag-row {
+  margin-bottom: 22px;
+}
+
 .app-preview {
   padding: 20px;
   background: linear-gradient(180deg, #eef5ff, #dce8f7);
