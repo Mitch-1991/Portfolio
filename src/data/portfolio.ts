@@ -1,3 +1,5 @@
+const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 export const profile = {
   name: "Mitch Lenaerts",
   role: ".NET developer",
@@ -5,7 +7,7 @@ export const profile = {
   github: "https://github.com/Mitch-1991",
   linkedin: "https://be.linkedin.com/in/mitch-lenaerts-343a1b15a",
   trackerUrl: "https://mitch-1991.github.io/Solicitatietracker2.0/",
-  cvUrl: "/assets/mitch-lenaerts-cv.pdf",
+  cvUrl: assetUrl("assets/mitch-lenaerts-cv.pdf"),
 };
 
 export const skills = [
