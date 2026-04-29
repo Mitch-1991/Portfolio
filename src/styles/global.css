@@ -162,6 +162,15 @@ p {
   overflow: hidden;
 }
 
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid var(--line);
+}
+
 .terminal-card__bar {
   display: flex;
   gap: 8px;

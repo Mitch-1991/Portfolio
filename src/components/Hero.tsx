@@ -1,5 +1,7 @@
 import { profile } from "../data/portfolio";
 
+const profileImageUrl = new URL("../../Assets/PXL_20260130_133516140.jpg", import.meta.url).href;
+
 export function Hero() {
   return (
     <section className="hero section-shell" aria-labelledby="hero-title">
@@ -27,6 +29,7 @@ export function Hero() {
       </div>
 
       <aside className="terminal-card" aria-label="Profiel samenvatting">
+        <img className="profile-photo" src={profileImageUrl} alt="Mitch Lenaerts" />
         <div className="terminal-card__bar">
           <span />
           <span />
