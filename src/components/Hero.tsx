@@ -1,6 +1,6 @@
 import { profile } from "../data/portfolio";
 
-const profileImageUrl = new URL("../../Assets/PXL_20260130_133516140.jpg", import.meta.url).href;
+const profileImageUrl = `${import.meta.env.BASE_URL}assets/profilePic.jpeg`;
 
 export function Hero() {
   return (
@@ -36,7 +36,7 @@ export function Hero() {
           <span />
         </div>
         <div className="terminal-card__body">
-          <p><span>$</span> whoami</p>
+          <p><span>$</span> who am I</p>
           <strong>{profile.name}</strong>
           <p><span>$</span> stack --focus</p>
           <code>C# .NET 9 React TypeScript EF</code>

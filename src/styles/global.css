@@ -160,14 +160,16 @@ p {
 
 .terminal-card {
   overflow: hidden;
+  width: 94%;
+  justify-self: center;
 }
 
 .profile-photo {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 5 / 6;
   object-fit: cover;
-  object-position: center;
+  object-position: center 42%;
   border-bottom: 1px solid var(--line);
 }
 
