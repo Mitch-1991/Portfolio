@@ -2,11 +2,12 @@ const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
 export const profile = {
   name: "Mitch Lenaerts",
-  role: ".NET developer",
+  role: ".NET Developer | AI Automation",
   email: "lenaerts.mitch@gmail.com",
   github: "https://github.com/Mitch-1991",
   linkedin: "https://be.linkedin.com/in/mitch-lenaerts-343a1b15a",
   trackerUrl: "https://mitch-1991.github.io/Solicitatietracker2.0/",
+  n8nLeadCaptureUrl: "https://github.com/Mitch-1991/n8n-ai-lead-capture",
   cvUrl: assetUrl("assets/mitch-lenaerts-cv.pdf"),
 };
 
@@ -15,10 +16,15 @@ export const skills = [
   ".NET 9",
   "React",
   "TypeScript",
-  "JavaScript",
   "MVC",
   "Entity Framework",
   "Blazor",
+  "Anthropic Claude API",
+  "n8n",
+  "Claude Code",
+  "Cursor",
+  "Docker",
+  "Azure",
   "Scrum",
   "Microsoft Office",
 ];
@@ -55,7 +61,7 @@ export const experience = [
 ];
 
 export const education = [
-  "Graduaat Sociaal-cultureel werk, Encora HBO5",
-  "Opleiding import & export, Portilog via Randstad",
-  "Online course: Learn TypeScript",
+  "Bachelor Sociaal-cultureel werk, Encora HBO5 | 2016 - 2018",
+  "Opleiding import & export, Portilog via Randstad | 2019",
+  "Online cursussen: Learn TypeScript · Anthropic Academy: Claude 101 & Claude Code in Action · Docker Fundamentals · Azure Fundamentals",
 ];
